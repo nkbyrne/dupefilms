@@ -54,7 +54,7 @@ def main():
                 if f != best:
                     print(f"   🗑️  Deleting lower quality: {Path(f).name}")
                     # Uncomment the next line to delete files
-                    os.remove(f)
+                    #os.remove(f)
 
 if __name__ == "__main__":
     main()
